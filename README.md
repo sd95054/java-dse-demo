@@ -9,6 +9,6 @@ Java main() program that connects to DataStax Cassandra.
 
 The source code is under _src/main/java_.
 
-The detailed instructions are in the top level file: _Getting_Started_usingJava_Driver_.txt
+The detailed instructions are in the top level file: `Getting_Started_usingJava_Driver.md`
 
 Feel free to use.
