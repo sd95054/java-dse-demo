@@ -41,11 +41,11 @@ Observe the pom.xml file created by IntelliJ
 
 5. Add the following into the pom file.
 
-`<dependency>
-  <groupId>com.datastax.dse</groupId>
-  <artifactId>dse-java-driver-core</artifactId>
-  <version>1.5.1</version>
-</dependency>`
+`    <dependency>  
+        <groupId>com.datastax.dse</groupId>  
+        <artifactId>dse-java-driver-core</artifactId>  
+        <version>1.5.1</version>  
+    </dependency> ` 
 
 Make sure the above is inside `<dependencies></dependencies>`
 
@@ -60,17 +60,22 @@ In left panel, go to src/main/java and add a Java file.
 
 Eg: SampleMain.java
 
-`import com.datastax.driver.dse.DseCluster;
-import com.datastax.driver.dse.DseSession;
-import com.datastax.driver.core.Row;
-import com.datastax.driver.core.ResultSet;
-import java.util.Iterator;`
+`import com.datastax.driver.dse.DseCluster;`
+
+`import com.datastax.driver.dse.DseSession;`
+
+`import com.datastax.driver.core.Row;`
+
+`import com.datastax.driver.core.ResultSet;`
+
+`import java.util.Iterator;`
 
 `public class SampleMain {`
 
-    public static void main(String[] args){
-	.....
-    }
+  `public static void main(String[] args)`
+  
+  `{// code}`
+  
 `}`
 
 7. Build SampleMain.java:
